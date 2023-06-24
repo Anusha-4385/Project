@@ -1,0 +1,184 @@
+ .contact1 h1{
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  /* margin-top: 20px; */
+  /* background-image: linear-gradient(to right,pink,rgb(107, 107, 166)); */
+}
+.img1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 20px;
+  
+
+} 
+.contact4{
+  font-family: 'Foldit', cursive;
+  margin: 10px;
+}
+.contact3{
+  font-family: 'Foldit', cursive;
+  margin: 10px;
+}
+.contact2{
+ 
+  color: rgb(7, 7, 6);
+  
+  padding: 20px;
+}
+
+
+h6{ 
+  margin-right: 225px;
+  
+}
+.container{
+  
+  display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+
+  
+}
+.i{
+  border: 3px solid black;
+  padding: 30px;
+  text-align: center;
+  margin: 50px;
+  background-color: #fff;
+}
+.j{
+  border: 3px solid black;
+  padding: 30px;
+  text-align: center;
+  margin: 50px;
+  background-color: #fff;
+}
+.k{
+  border: 3px solid black;
+  padding: 30px;
+  text-align: center;
+  margin: 50px;
+  background-color: #fff;
+}
+.a{ 
+  display: flex;
+flex-direction: row;
+justify-content: space-around;
+background-color:black;
+color: #fff;
+padding: 50px;
+
+}
+.b{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.sodhipullama iframe{
+
+  
+  float: right;
+  margin-top: -350px;
+  border-radius: 20px;
+ padding: 30px;
+}
+.box{
+  background-color: rgb(234, 131, 227);
+  border-radius: 30px;
+  margin-top: 10px;
+}
+.box1 h2{
+  margin-left: 110px;
+  padding-top: 70px;
+  
+}
+.box1{
+  margin-left: 60px;
+}
+.form{
+  display: flex;
+  margin-left: 400px;
+  margin-top: -190px;
+  margin-left: 500px;
+}
+.form1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+ 
+}
+.form2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+.form3{
+  display: flex;
+   flex-direction: row;
+ justify-content: space-evenly;
+ margin-top: 10px;
+}
+.form4 input{
+ text-align: center;
+ height: 100px;
+ width: 580px;
+ border-radius: 10px;
+  border: 4px solid rgb(247, 249, 242);
+  margin-top: 20px;
+  
+ 
+}
+.form1 input{
+  padding: 5px 20px 5px 5px;
+  text-align: center;
+  border-radius: 10px;
+  border: 4px solid rgb(247, 249, 242);
+  margin-left: 5px;
+  margin-right: 40px;
+}
+.form2 input{
+  padding: 5px 20px 5px 5px;
+  text-align: center;
+  border-radius: 10px;
+  border: 4px solid rgb(247, 249, 242);
+  margin-left: 5px;
+  margin-right: 40px;
+
+}
+.form3 select{
+  
+  border-radius: 10px;
+  border: 4px solid rgb(247, 249, 242);
+  padding: 7px 65px 7px 65px;
+  margin-left: 20px;
+  margin-right: 40px;
+
+}
+
+.form5  input{
+  
+  color: rgb(7, 7, 11);
+  background-color:rgb(21, 144, 81);
+  padding: 5px 20px 5px 20px;
+  border-radius: 10px;
+  border: 2px solid rgb(15, 15, 14);
+}
+.form5{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.contact{
+  /* background-color: rgb(221, 164, 79); */
+  background-color: rgb(142, 199, 228);
+  /* background-color: rgb(220, 143, 227); */
+  /* background-image: url('https://images.unsplash.com/photo-1615715757401-f30e7b27b912?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80'); */
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%vh;
+  width: 100%vw;
+}

@@ -1,0 +1,15 @@
+.a{ 
+    display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 70px;
+  background-color:black;
+  color: white;
+  padding: 50px;
+  
+}
+.b{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

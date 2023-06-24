@@ -1,0 +1,108 @@
+.navbar{
+    display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* font-family: 'Righteous', cursive; */
+  font-family: 'Rowdies', cursive;
+  font-size: 20px;
+ padding: 15px;
+background-image:  url("https://images.unsplash.com/photo-1685495856559-5d96a0e51acb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80");
+list-style-type: none;
+border-radius: 10px;
+margin-bottom: 0px;
+
+}
+a{
+  text-decoration: none;
+  color: ghostwhite;
+}
+.image{
+  
+  border-radius: 10px;
+}
+
+
+.dropbtn {
+  padding: 2px;
+  font-size: 20px;
+  height: 34px;
+  border: none;
+  border-radius: 10px;
+  background: transparent;
+  color: white;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  padding-right: 120px;
+  
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:black;
+  height: 370px;
+  min-width: 200px;
+  padding: 20px;
+  margin: 3px 0px 0px -35px;
+  border-radius: 10px;
+  z-index: 100px;
+  
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: white;
+  text-align:start ;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color:gray;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+  
+}
+.heading{
+  color: aliceblue;
+  margin-top: 5px;
+  margin-left: 3px;
+  font-family: 'Rowdies', cursive;
+}
+
+@media screen and (max-width:325px) and (min-width:150px) {
+  .navbar{
+    background: transparent;
+    background-color: aquamarine;
+    width: 30rem;
+
+    
+  }
+}
+
+@media screen and (max-width:750px) {
+  .navbar{
+    width: 100%;
+  }
+  .navbar .hide{
+    display: none;
+  }
+  .dropdown {
+    padding-right: 40px;
+  }
+}
+@media screen and (max-width:650px) {
+  .hide1{
+    display: none;
+  }
+}
+
+

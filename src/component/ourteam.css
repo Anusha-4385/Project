@@ -1,0 +1,45 @@
+.card img{
+    height: 240px;
+    width: 285px;
+    
+}
+.card p{
+    color: rgb(247, 255, 244);
+    text-align: center;
+    font-style: italic;
+}
+.card h5{
+    text-align: center;
+    font-style: italic;
+    font-size: 30px;
+}
+.card h1{
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(52, 15, 200);
+    font-style: italic;
+    
+
+}
+.card1{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+.card2{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.card1 text1{
+    text-align: center;
+    color: black;
+}
+.card{
+    background-color: rgb(228, 155, 131);
+}
+.text-dark a{
+    text-align: center;
+}

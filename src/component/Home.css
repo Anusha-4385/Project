@@ -1,0 +1,40 @@
+.home{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.homeBg h1{
+    text-align: center;
+    margin: 25px 0px 60px 0px;
+    color: rgb(20, 21, 16);
+    
+}
+  h4{
+    color: rgb(23, 22, 22);
+    
+}
+
+.home img{
+    height: 220px;
+    border-radius: 0 60px 0 60px;
+}
+.home1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.home1 img{
+
+    border-radius: 0 60px 0 60px;
+
+}
+
+.homeBg{
+
+    background-image: url('https://cdn.wallpapersafari.com/20/89/ts2gCU.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: -26.5px;
+    
+}
